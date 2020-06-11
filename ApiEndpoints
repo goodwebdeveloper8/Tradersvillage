@@ -1,0 +1,23 @@
+HTTP API should cover the following:
+
+1) Ticker (last done, bid, ask, 24h volume, 24h high, 24h low, and details of all crypto traded on exchange).
+2) OrderBook (list of asks and list of bids at least 100 levels). 
+3) Trades (X number of trades history)
+
+
+GET Tickers/Marketinfo
+https://tradersvillage.co/Api/Index/marketInfo
+
+
+GET Tickers/SingleMarketinfo
+https://tradersvillage.co/Api/Index/singlemarketInfo/market/btc_usdt
+
+
+GET OrderBook
+https://tradersvillage.co/Api/Exchange/activeorders/market/btc_usdt
+
+
+GET Trades (Get trade history)
+https://tradersvillage.co/Api/Exchange/lasttrades/market/btc_usdt/limit/100
+
+https://tradersvillage.co/Api/Index/singlemarketInfo/market/btc_usdt
